@@ -3,9 +3,13 @@ import "../LoginComponent/login.css"
 
 export default function Login() {
     return (
-      <><div>
+      <>
+      <html>
+      <div id = "mainLogin">
+      
+      <div>
         <strong class="name">LOGIN</strong>
-      </div><div id = "mainLogin">
+      </div>
       <form>
         <br></br>
         <p class = "names">Documento de Identidad</p>
@@ -26,7 +30,10 @@ export default function Login() {
       <br></br>
       <a class='toRegister' href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&rlz=1C1GCEA_enCO1117CO1117&oq=g&gs_lcrp=EgZjaHJvbWUqEwgEEC4YgwEYxwEYsQMY0QMYgAQyBggAEEUYOTINCAEQABiDARixAxiABDIGCAIQRRg7MgYIAxBFGDsyEwgEEC4YgwEYxwEYsQMY0QMYgAQyDQgFEAAYgwEYsQMYgAQyDQgGEAAYgwEYsQMYgAQyDQgHEAAYgwEYsQMYgAQyDQgIEAAYgwEYsQMYgAQyDQgJEAAYgwEYsQMYgATSAQkyNjgwajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8">Registrate</a>
 
-        </div></>
+        </div>
+        </html>
+        
+        </>
     );
   }
   
