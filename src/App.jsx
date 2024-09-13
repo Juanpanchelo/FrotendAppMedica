@@ -1,13 +1,13 @@
-import Login from './components/LoginComponent/login';
-import './App.css';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import test from "./components/LoginForm";
+import LoginForm from "./components/LoginForm";
 
 function App() {
   return (
-    
-     <Login/>
-      
-  );
-}
+    <BrowserRouter>
+      <Routes>
+        <Route index path="/login" element={<LoginForm />} />
+      </Routes>
+    </BrowserRouter>
 
 export default App;
