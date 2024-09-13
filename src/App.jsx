@@ -9,7 +9,5 @@ function App() {
         <Route index path="/login" element={<LoginForm />} />
       </Routes>
     </BrowserRouter>
-  );
-}
 
 export default App;
