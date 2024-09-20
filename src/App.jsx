@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import test from "./components/LoginForm";
-import LoginForm from "./components/LoginForm";
+import LoginForm from "./components/LoginForm/LoginForm";
 
 function App() {
   return (
@@ -9,5 +8,7 @@ function App() {
         <Route index path="/login" element={<LoginForm />} />
       </Routes>
     </BrowserRouter>
+  );
+}
 
 export default App;
