@@ -25,7 +25,13 @@ const Register = () => {
                         <input type="text" placeholder="apellidos" />
                     </div>
                     <div className="input-box">
-                        <input type="text" placeholder="tipo de documento" />
+                        <div>Tipo de Documento</div>
+                        <select type="text" placeholder="tipo de documento">
+                            <option value="Cedula">Cedúla</option>
+                            <option value="Tarjeta de Identidad">Tarjeta de identidad</option>
+                            <option value="Pasaporte">Pasaporte</option>
+                            <option value="Cedula Extranjera">Cedúla extranjera</option>
+                        </select>
                     </div>
                     <div className="input-box">
                         <input type="text" placeholder="documento" />
