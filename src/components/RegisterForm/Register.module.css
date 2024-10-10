@@ -1,0 +1,61 @@
+.wrapper {
+  max-width: 420px;
+  background: rgb(14, 40, 155);
+  border-radius: 10px;
+  color: #fff;
+  border: 5px solid blue;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wrapper .form-box {
+  border: 1px solid green;
+}
+
+.title {
+  font-size: 36px;
+  text-align: center;
+  margin: center;
+}
+.inputField {
+  background: rgb(41, 90, 237);
+  width: 291px;
+  height: 20px;
+  border-radius: 25px;
+  border-style: none;
+  border: 2px solid #070543;
+  padding: 17px;
+  &::placeholder {
+    color: #181313;
+  }
+}
+
+.inputSelect {
+  background: rgb(41, 90, 237);
+  width: 291px;
+  padding: 17px;
+  border-radius: 25px;
+  border: 3px solid #070543;
+  display: flex;
+  &::placeholder {
+    color: #181313;
+  }
+}
+.inputBox .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  translate: 0 -50%;
+  font-size: 16px;
+}
+
+.botonEnviar {
+  background: rgb(41, 90, 237);
+  border-radius: 25px;
+  padding-block: 10px;
+  border-style: none;
+  border: 3px solid #070543;
+  width: 291px;
+}
