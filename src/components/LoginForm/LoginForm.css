@@ -1,100 +1,86 @@
-html{
-    background-color: #d4effa;
+html {
+  background-color: #d4effa;
 }
 
-
-#mainLogin{
-    background-color: #67A3CF;
-    border-width: 10px;
-    border-color: #2070E8;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 390px;
-    width: 500px;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-
+#mainLogin {
+  background-color: #67a3cf;
+  border-width: 10px;
+  border-color: #2070e8;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 390px;
+  width: 500px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 
-.name{
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
+.name {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
 }
 
-.names{
-    margin-left: 20px;
+.names {
+  margin-left: 20px;
 }
 
-
-
-
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-
-
-.toRegister{
-    color: rgb(255, 255, 255);
-    background-color: #2070E8;
-    margin: 20px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5px;
-    transition: 0.2s;
-
+.toRegister {
+  color: rgb(255, 255, 255);
+  background-color: #2070e8;
+  margin: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  transition: 0.2s;
 }
 
-
-.toRecover{
-    color: rgb(255, 255, 255);
-    background-color: #2070E8;
-    margin: 20px;
-    padding: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5px;
-    transition: 0.2s;
+.toRecover {
+  color: rgb(255, 255, 255);
+  background-color: #2070e8;
+  margin: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  transition: 0.2s;
 }
 
-
-.ingresar{
-    border-style: none;
-    background-color: #BFEAE2;
-    height: 32PX;
-    width: 110PX;
-    cursor: pointer;
-    transition: 0.2s;
-    border-radius: 10px;
-    margin-left: 20px;
+.ingresar {
+  border-style: none;
+  background-color: #bfeae2;
+  height: 32px;
+  width: 110px;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 
-.ingresar:hover{
-    background-color: aliceblue;
+.ingresar:hover {
+  background-color: aliceblue;
 }
 
-.toRecover:hover{
-    background-color: #6ba5fc;
+.toRecover:hover {
+  background-color: #6ba5fc;
 }
 
-.toRegister:hover{
-    background-color: #6ba5fc;
+.toRegister:hover {
+  background-color: #6ba5fc;
 }
 
-
-
-
-p{
-    color: aliceblue;
+p {
+  color: aliceblue;
 }
 
-input{
-    width: 291px;
-    height: 20px;
-    border-radius: 10px;
-    border-style: none;
-    margin-left: 20px;
+.input {
+  width: 291px;
+  height: 20px;
+  border-radius: 10px;
+  border-style: none;
 }
