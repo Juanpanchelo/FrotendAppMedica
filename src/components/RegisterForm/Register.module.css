@@ -3,15 +3,18 @@
   background: rgb(14, 40, 155);
   border-radius: 10px;
   color: #fff;
-  border: 5px solid blue;
+  border: 5px solid rgb(3, 5, 119);
   padding: 2rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 1rem;
+  margin: 0 auto;
 }
 
 .wrapper .form-box {
-  border: 1px solid green;
+  border: 25px solid green;
 }
 
 .title {
