@@ -5,6 +5,7 @@ import Services from "./components/Services/Services";
 import Layout from "./components/Layout/Layout";
 import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
  
@@ -19,6 +20,8 @@ function App() {
       <Route index path="/contact" element={<Contact />} />
       <Route index path="/login" element={<LoginForm />} />
       <Route path="/register" element={<Register/>} />
+      <Route path="/dashboard" element={<Dashboard/>} />
+
     </Routes>
   </BrowserRouter>
   </Layout>
