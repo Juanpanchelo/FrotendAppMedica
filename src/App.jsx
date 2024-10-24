@@ -6,6 +6,9 @@ import Layout from "./components/Layout/Layout";
 import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import Dashboard from "./components/Dashboard/Dashboard";
+import PersonalMedico from "./components/Dashboard/PersonalMedico/PersonalMedico";
+import Pacientes from "./components/Dashboard/Pacientes/Pacientes";
+import Asociados from "./components/Dashboard/Asociados/Asociados";
 
 function App() {
  
@@ -21,6 +24,11 @@ function App() {
       <Route index path="/login" element={<LoginForm />} />
       <Route path="/register" element={<Register/>} />
       <Route path="/dashboard" element={<Dashboard/>} />
+      <Route path="/personalmedico" element={<PersonalMedico/>} />
+      <Route path="/pacientes" element={<Pacientes/>} />
+      <Route path="/asociados" element={<Asociados/>} />
+
+
 
     </Routes>
   </BrowserRouter>

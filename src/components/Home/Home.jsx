@@ -1,5 +1,6 @@
-import React from 'react'
-
+import React from 'react';
+import butnn from "../assets/img/buttonkwai.png";
+import "../Home/Home.css";
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
       Home
 
     <ul>
-    <li><a href="/dashboard"><h1>PANEL DE CONTROL</h1></a></li>
+    <li ><a className='dashBtn' href="/dashboard"><img src={butnn} alt={"icon"}/></a></li>
 
 
 
