@@ -1,15 +1,14 @@
-import React from 'react';
 import Dashboard from '../Dashboard';
+import styles from "../Dashboard.module.css";
 
 
 
-
-function PersonalMedico() {
+const PersonalMedico = () => {
   return (
     <>
     <div className='container'>
     <Dashboard/>
-    <div className='information'>
+    <div className={styles.information}>
     <h1>NUMERO DE ESPECIALISTAS DE LA SALUD</h1>
     <br></br>
     <h1>234</h1>

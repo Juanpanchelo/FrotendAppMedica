@@ -1,14 +1,14 @@
-import React from 'react';
+import styles from "../Dashboard.module.css";
 import Dashboard from '../Dashboard';
 
 
 
-function Asociados() {
+const Asociados =()=> {
   return (
     <>
     <div className='container'>
     <Dashboard/>
-    <div className='information'>
+    <div className={styles.information}>
     <h1>NUMERO DE ASOCIADOS</h1>
     <br></br>
     <h1>100</h1>

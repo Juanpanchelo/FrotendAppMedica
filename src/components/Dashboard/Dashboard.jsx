@@ -1,39 +1,24 @@
-import React from 'react';
-import "./Dashboard.css";
-import jaus from "../assets/img/jaus.png";
+import styles from "./Dashboard.module.css";
+import { FaHouse } from "react-icons/fa6";
 
-
-
-
-function Dashboard() {
+const Dashboard = () => {
   return (
       <>
-        <div className='container'>
-          <div className = "dashNav">
+        <div className={styles.container}>
+          <div className={styles.dashNav}>
           <nav>
-                <ul>
-                <li><a href="/personalmedico">Personal Medico</a></li>
-                <br></br>
+            <ul className={styles.listItems}>
+                  <li>
+                    <a href="/personalmedico">Personal Medico</a>
+                  </li>
                   <li><a href="/pacientes">Pacientes</a></li>
-                  <br></br>
-
                   <li><a href="/asociados">Asociados</a></li>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-
-
-                  <li><a href="/"><img alt={"home"} src={jaus}></img></a></li>
-
-                </ul>
-              </nav>
-              </div>
-              </div>
-              </>
+            </ul>
+          </nav>
+          <li className={styles.jaus}><a href="/"><FaHouse className={styles.iconHouse} /></a></li>
+          </div>
+          </div>
+      </>
               
       )
     }

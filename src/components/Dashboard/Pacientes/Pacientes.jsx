@@ -1,15 +1,15 @@
-import React from 'react';
+import styles from "../Dashboard.module.css";
 import Dashboard from '../Dashboard';
 
 
 
-function Pacientes() {
+const Pacientes=()=> {
   return (
 
     <>
     <div className='container'>
     <Dashboard/>
-    <div className='information'>
+    <div className={styles.information}>
     <h1>NUMERO DE PACIENTES</h1>
     <br></br>
     <h1>500</h1>
