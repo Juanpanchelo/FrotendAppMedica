@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    border: 1px solid red;
+}
+
+.dashNav{
+    background-color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    width: 250px;
+    height: 85vh;
+    margin-left: 30px;
+    transition: width 0.3s ease;
+    overflow-x: hidden;
+    border: 1px solid pink;
+}
+
+.listItems {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem
+    ;
+}
+a:visited{
+    color: black;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+
+
+.information{
+    background-color: aliceblue;
+    padding: 100px;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+
+.iconHouse {
+    border: 1px solid red;
+    font-size: 2rem;
+}
+
+.jaus{
+    list-style: none;
+}
