@@ -1,27 +1,9 @@
-import React from 'react';
-import butnn from "../assets/img/buttonkwai.png";
-import "../Home/Home.css";
-
-const Home = () => {
-  return (
-    <div>
-      Home
-
-    <ul>
-    <li ><a className='dashBtn' href="/dashboard"><img src={butnn} alt={"icon"}/></a></li>
-
-
-
-    </ul>
-
-    
-
-    </div>
-
-
-
-
-  )
+import React from "react";
+import "./Home.css";
+import doctorImage from "./images/doctor-image.png";
+import image2 from "./images/image2.png";
+function Home() {
+  return <div>Home</div>;
 }
 
 export default Home;
